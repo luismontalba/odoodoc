@@ -26,8 +26,8 @@ ModuleInfo = namedtuple('module', ['name', 'path', 'link'])
 InfoDepTree = List[List[ModuleInfo]]
 
 PATHS = [
-    "~/src/odoo/",
-    "~/src/enterprise/",
+    "~/odoo13/addons/",
+    "~/odoo13/odoo/addons/",
 ]
 GITHUB_ROOT = "https://github.com/odoo"
 WEB_ICON = " 🌐"  # 🔗
